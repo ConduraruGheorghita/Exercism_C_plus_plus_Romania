@@ -2,7 +2,7 @@
 #include "hello_world.h"
 // Include the test framework.
 #ifdef EXERCISM_TEST_SUITE
-#include <catch2/catch.hpp>
+#include <catch2/catch.hpp> // hpp este header pentru cpp (asta inseamna ca poate contine si cod C, nu doar C++)
 #else
 #include "test/catch.hpp"
 #endif
