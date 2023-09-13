@@ -2,7 +2,7 @@
 #include "hello_world.h"
 // Include the test framework.
 #ifdef EXERCISM_TEST_SUITE
-#include <catch2/catch.hpp> // hpp este header pentru cpp (asta inseamna ca poate contine si cod C, nu doar C++)
+#include <catch2/catch.hpp> // hpp este header pentru cpp (asta inseamna ca poate contine si cod C, nu doar C++) ; framework de testare numit "Catch2" pentru a crea și executa teste ; Codul tău utilizează framework-ul de testare "Catch2", care este un instrument puternic și flexibil pentru a crea și rula teste unitare în C++. Acesta permite scrierea de teste cu expresii clare și ușor de citit, precum REQUIRE(hello_world::hello() == "Hello, World!");, și generează rapoarte detaliate despre rezultatele testelor.
 #else
 #include "test/catch.hpp"
 #endif
