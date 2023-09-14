@@ -7,7 +7,7 @@
 #include "test/catch.hpp"
 #endif
 // Declares a single test.
-TEST_CASE("test_hello")
+TEST_CASE("test_hello") // Această linie definește un nou test folosind framework-ul de testare. Testul are numele "test_hello". Numele testului trebuie să fie unic în cadrul proiectului și ajută la identificarea testului în cazul în care acesta eșuează.
 {
     // Check if your function returns "Hello, World!".
     REQUIRE(hello_world::hello() == "Hello, World!");
