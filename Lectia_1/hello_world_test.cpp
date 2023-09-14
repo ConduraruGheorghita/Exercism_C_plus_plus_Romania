@@ -10,7 +10,7 @@
 TEST_CASE("test_hello") // Această linie definește un nou test folosind framework-ul de testare. Testul are numele "test_hello". Numele testului trebuie să fie unic în cadrul proiectului și ajută la identificarea testului în cazul în care acesta eșuează.
 {
     // Check if your function returns "Hello, World!".
-    REQUIRE(hello_world::hello() == "Hello, World!");
+    REQUIRE(hello_world::hello() == "Hello, World!"); // Acesta este conținutul testului. Cu ajutorul macro-ului "REQUIRE", se verifică dacă rezultatul apelului funcției hello_world::hello() este egal cu șirul "Hello, World!". Dacă această condiție nu este îndeplinită (adică funcția hello() nu returnează "Hello, World!"), testul va eșua și va genera un mesaj de eroare în raportul de testare.
 }
 
 //Codul pe care l-ai furnizat face parte dintr-un test pentru funcția hello() definită în "hello_world.cpp". Acesta utilizează un framework de testare numit "Catch2" pentru a crea și executa teste pentru codul tău. Extensia fisierului în sine nu este importantă în acest context, dar convențional, astfel de fișiere de testare au extensia .cpp.
